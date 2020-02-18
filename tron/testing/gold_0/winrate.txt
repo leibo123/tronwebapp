@@ -1,0 +1,91 @@
+TA
+      EMPTY
+      P1: 94% win-rate -> 98/94% win rate
+      P2: 89% win-rate -> 97/95% win rate
+
+      DIVIDER
+      P1: 91% win-rate -> 
+      P2: 30% win-rate -> 
+
+      JOUST
+      P1: 95% win-rate -> 95/92% win rate
+      P2: 74% win-rate -> 90/90% win rate
+
+WALL
+      EMPTY
+      P1: 97% win-rate -> 99/98% win rate
+      P2: 99% win-rate -> 97/96% win rate
+
+      DIVIDER
+      P1: 85% win-rate 
+      P2: 74% win-rate
+
+      JOUST
+      P1: 90% win-rate -> 95/94% win rate
+      P2: 88% win-rate -> 95/94% win rate
+
+RANDOM
+      EMPTY
+      P1: 96% win-rate -> 98/97% win rate
+      P2: 96% win-rate -> 96/95% win rate
+
+      DIVIDER
+      P1: 83% win-rate
+      P2: 80% win-rate
+
+      JOUST
+      P1: 94% win-rate -> 96/93% win rate
+      P2: 94% win-rate -> 93/91% win rate
+
+Final Run:
+
+TA
+      EMPTY
+      P1: 98/97/96% win-rate
+      P2: 98/98/97% win-rate
+
+      DIVIDER
+      P1: 77/76/76% win-rate
+      P2: 86/84/82% win-rate
+
+      JOUST
+      P1: 95/93/92% win-rate
+      P2: 92/91/91% win-rate
+
+WALL
+      EMPTY
+      P1: 98/98/98% win-rate
+      P2: 97/97/95% win-rate
+
+      DIVIDER
+      P1: 94/89/86% win-rate
+      P2: 92/89/89% win-rate
+
+      JOUST
+      P1: 98/94/91% win-rate
+      P2: 92/91/90% win-rate
+RANDOM
+      EMPTY
+      P1: 97/97/97% win-rate
+      P2: 97/95/94% win-rate
+
+      DIVIDER
+      P1: 96/91/91% win-rate
+      P2: 96/94/93% win-rate
+
+      JOUST
+      P1: 95/93/93% win-rate
+      P2: 91/90/90% win-rate
+
+TA 2??
+      EMPTY
+      P1: 50/47/47% win-rate
+      P2: 73/67/63% win-rate
+
+      DIVIDER
+      P1: 55/55/51% win-rate
+      P2: 58/56/53% win-rate
+
+      JOUST
+      P1: 66/61/61% win-rate
+      P2: 55/53/49% win-rate

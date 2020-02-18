@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Atari Classic Chunky';
+    src: url(./assets/atari_class_chunky.ttf);
+}
+
+@font-face {
+    font-family: 'Andale Mono';
+    src: url(./assets/andale_mono.ttf);
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Andale Mono';
+    text-align: center;
+    padding: 70px 0;
+}
+
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #E06800;
+    font-family: 'Atari Classic Chunky';
+    font-size: 64px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin-bottom: 18px;
+}
+
+a {
+    color: #9C9CB2;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.p1 {
+    color: #BAD650;
+    font-weight: bold;
+}
+
+.p2 {
+    color: #FFB938;
+    font-weight: bold;
+}
+
+.vs {
+    font-size: 24px;
+}
+
+.score {
+    font-size: 36px;
+}
+
+.vs .p1, .vs .p2, .score .p1, .score .p2 {
+    font-family: 'Atari Classic Chunky';
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: calc(17 * 20px);
+}
+
+.board > span {
+    /* display: inline-block; */
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.board > span > p {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    line-height: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.game + p {
+    margin-top: 5px;
+}
+
+.game-wrapper {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.game-wrapper .restart {
+    position: absolute;
+    top: calc(17 * 20px - 30px);
+    left: calc(50% + 9 * 20px);
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color:#b3b3c9;
+}
+
+.game-wrapper .restart:hover {
+    background-color: white;
+}
+
+.wall {
+    background-color: #b3b3c9;
+}
+
+.barrier {
+    background-color: #6b6b7c;
+}
+
+.player1 {
+    background-color: #BAD650;
+}
+
+.player2 {
+    background-color: #FFB938;
+}
+
+.trap {
+    background-color: #b57cd2;
+}
+/* 
+.armor {
+    background-color: purple;
+}
+
+.speed {
+    background-color: green;
+}
+
+.bomb {
+    background-color: red;
+} */
+
+#loading {
+    width: 40vw;
+    height: auto;
+    margin-bottom: 2000px;
+}

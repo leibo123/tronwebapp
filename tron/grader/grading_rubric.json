@@ -1,0 +1,356 @@
+{
+  "auto": [
+    {
+      "name": "against RandBot",
+      "children": [
+        {
+          "name": "divider",
+          "function": "rand_divider",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "hunger_games",
+          "function": "rand_hunger_games",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "joust",
+          "function": "rand_joust",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "withheld map",
+          "function": "rand_withheld",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "against WallBot",
+      "children": [
+        {
+          "name": "divider",
+          "function": "wall_divider",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "hunger_games",
+          "function": "wall_hunger_games",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "joust",
+          "function": "wall_joust",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "withheld map",
+          "function": "wall_withheld",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "against TABot1",
+      "children": [
+        {
+          "name": "divider",
+          "function": "TA1_divider",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "hunger_games",
+          "function": "TA1_hunger_games",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "joust",
+          "function": "TA1_joust",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "withheld map",
+          "function": "TA1_withheld",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "against TABot2",
+      "children": [
+        {
+          "name": "divider",
+          "function": "TA2_divider",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "hunger_games",
+          "function": "TA2_hunger_games",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "joust",
+          "function": "TA2_joust",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        },
+        {
+          "name": "withheld map",
+          "function": "TA2_withheld",
+          "arguments": [
+            "StudentBot"
+          ],
+          "timeout": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "capstone bot",
+      "visibility": "has_capstone",
+      "children": [
+        {
+          "name": "against RandBot",
+          "children": [
+            {
+              "name": "divider",
+              "function": "rand_divider",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "hunger_games",
+              "function": "rand_hunger_games",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "joust",
+              "function": "rand_joust",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "withheld map",
+              "function": "rand_withheld",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            }
+          ]
+        },
+        {
+          "name": "against WallBot",
+          "children": [
+            {
+              "name": "divider",
+              "function": "wall_divider",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "hunger_games",
+              "function": "wall_hunger_games",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "joust",
+              "function": "wall_joust",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "withheld map",
+              "function": "wall_withheld",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            }
+          ]
+        },
+        {
+          "name": "against TABot1",
+          "children": [
+            {
+              "name": "divider",
+              "function": "TA1_divider",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "hunger_games",
+              "function": "TA1_hunger_games",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "joust",
+              "function": "TA1_joust",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "withheld map",
+              "function": "TA1_withheld",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            }
+          ]
+        },
+        {
+          "name": "against TABot2",
+          "children": [
+            {
+              "name": "divider",
+              "function": "TA2_divider",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "hunger_games",
+              "function": "TA2_hunger_games",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "joust",
+              "function": "TA2_joust",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            },
+            {
+              "name": "withheld map",
+              "function": "TA2_withheld",
+              "arguments": [
+                "CapstoneBot"
+              ],
+              "timeout": 0,
+              "value": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "written": [
+    {
+      "name": "Part 1 (Reproducibility)",
+      "value": 50,
+      "field": "1: Reproducibility (50.0 pts)"
+    },
+    {
+      "name": "Part 2 (Motivations)",
+      "value": 40,
+      "field": "2: Motivations (40.0 pts)"
+    },
+    {
+      "name": "Shortcomings (Bonus)",
+      "value": 40,
+      "field": "3: Shortcomings (0.0 pts)",
+      "extra-credit": true
+    }
+  ]
+}
